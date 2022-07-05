@@ -1,7 +1,7 @@
 import { months, week } from './date';
 
 export const formatWeekDay = (date: Date | number) =>
-  week[new Date(date).getUTCDay()];
+  week[new Date(date).getDay()];
 
 // Example: 24°
 export const formatTemperature = (value: number) => `${Math.round(value)}°`;

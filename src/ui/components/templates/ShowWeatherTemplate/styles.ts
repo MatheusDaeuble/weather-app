@@ -1,3 +1,4 @@
+import { StatusBar } from 'react-native';
 import styled from 'styled-components/native';
 import Icon from 'ui/components/atoms/Icon';
 import Illustration from 'ui/components/atoms/Illustration';
@@ -12,6 +13,7 @@ export const Container = styled.View`
   background: ${colors.primary};
   justify-content: space-between;
   align-items: center;
+  padding-top: ${StatusBar.currentHeight || 0}px;
 `;
 
 export const CurrentWeatherContainer = styled.View`
@@ -79,6 +81,7 @@ export const WeekContainer = styled.View`
   border-top-right-radius: ${Spacing.SCALE_16}px;
   border-top-left-radius: ${Spacing.SCALE_16}px;
   padding: ${Spacing.SCALE_20}px;
+  padding-bottom: 0px;
 `;
 
 export const WeatherIllustrationContainer = styled.View<{
