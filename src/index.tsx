@@ -1,10 +1,12 @@
+import { ToastProvider } from 'contexts/Toast';
+import useLoadFonts from 'hooks/useLoadFonts';
 import React from 'react';
 import { QueryClientProvider } from 'react-query';
 
-import useLoadFonts from 'hooks/useLoadFonts';
 import queryClient from 'services/shared/queryClient';
+import ToastContainer from 'ui/containers/ToastContainer';
 
-import HomeScreen from './screens/Home';
+import App from './App';
 
 export default () => {
   const fontsLoaded = useLoadFonts();
@@ -12,8 +14,11 @@ export default () => {
   if (!fontsLoaded) return null;
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <HomeScreen />
-    </QueryClientProvider>
+    <ToastProvider>
+      <QueryClientProvider client={queryClient}>
+        <App />
+        <ToastContainer />
+      </QueryClientProvider>
+    </ToastProvider>
   );
 };

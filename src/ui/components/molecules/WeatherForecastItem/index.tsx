@@ -2,8 +2,8 @@ import React from 'react';
 import { isSameDay } from 'date-fns';
 import { formatTemperature, formatWeekDay } from 'util/format';
 import Icon from 'ui/components/atoms/Icon';
+import WeatherWeekForecast from 'services/weatherApi/types/WeatherWeekForecast';
 import { Container, Day, Temp, TempContainer } from './styles';
-import { WeatherWeekForecast } from 'services/weatherApi/hooks/useWeatherApi copy';
 
 interface WeatherForecastItemProps {
   data: WeatherWeekForecast;

@@ -1,4 +1,4 @@
-import { Weather } from 'services/weatherApi/hooks/useWeatherApi';
+import Weather from 'services/weatherApi/types/Weather';
 import { formatDate, formatTemperature } from 'util/format';
 
 export const formatWeather = (data: Weather) => {

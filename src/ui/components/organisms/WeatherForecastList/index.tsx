@@ -1,8 +1,8 @@
 import React from 'react';
 import Loading from 'ui/components/atoms/Loading';
 import { WeekList, Empty } from './styles';
-import { WeatherWeekForecast } from 'services/weatherApi/hooks/useWeatherApi copy';
 import WeatherForecastItem from 'ui/components/molecules/WeatherForecastItem';
+import WeatherWeekForecast from 'services/weatherApi/types/WeatherWeekForecast';
 
 interface WeatherForecastListProps {
   data?: WeatherWeekForecast[];

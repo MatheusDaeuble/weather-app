@@ -3,8 +3,9 @@ import { LayoutChangeEvent } from 'react-native';
 import WeatherForecastList from 'ui/components/organisms/WeatherForecastList';
 import Typography from 'ui/components/atoms/Typography';
 import Loading from 'ui/components/atoms/Loading';
-import { Weather } from 'services/weatherApi/hooks/useWeatherApi';
-import { WeatherWeekForecast } from 'services/weatherApi/hooks/useWeatherApi copy';
+import SafeArea from 'ui/containers/SafeArea';
+import Weather from 'services/weatherApi/types/Weather';
+import WeatherWeekForecast from 'services/weatherApi/types/WeatherWeekForecast';
 import {
   Container,
   WeekContainer,
@@ -22,7 +23,6 @@ import {
   RefreshContainer,
 } from './styles';
 import { formatWeather } from './util';
-import SafeArea from 'ui/containers/SafeArea';
 
 interface ShowWeatherTemplateProps {
   currentWeather: Weather;
