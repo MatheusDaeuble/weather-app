@@ -4,6 +4,7 @@
 ## ✨ Apresentação 
 O WeatherApp é um ótimo aplicativo para quem quer ficar informado das previsões e condições climáticas atuais.
 
+
 ## 🚀 Instantalção:
 
 1 - Download do repositório
@@ -25,7 +26,6 @@ yarn ios
 ```sh
 yarn android
 ```
-
 ## 🛠️ Principais bibliotecas
 
 - axios
@@ -44,8 +44,6 @@ yarn android
 - [OpenWeather](https://openweathermap.org/api) - Utilizada para obter informações metereologicas.
 
 
-
-
 ## 📱 Design System:
 
 Para a criação do Design System, foi utilizada a metodologia de Atomic Design essa metodológia consiste em dividir os elementos em cinco categorias, que trabalham juntas com o intuito de criar interfaces hierárquicas. Cada um dos cinco estágios desempenha um papel fundamental no design de interface. São eles:
@@ -61,6 +59,18 @@ Para a criação do Design System, foi utilizada a metodologia de Atomic Design 
 - **Páginas:** É o resultado final, exatamente como o template, só que completa de informações reais.
 
 *Obs: No projeto o Design System está localizado na pasta* `src/ui/components/`.
+
+
+## 🌄 Ilustrações:
+
+#### Geração:
+Para gerar os components SVGs foi utilizada a lib `@svgr/cli`, com ela é possível transofrmar arquivos SVG em components para o react-native, para isso basta usar:
+```sh
+yarn build:illustrations
+```
+#### Novas ilustrações:
+Para adicionar novas illustrações basta adicionar o arquivo svg em `/assets/illustrations`, após isso use novamente o comando para gerar as ilustrações.
+
 
 ## 📘 Referências
 
