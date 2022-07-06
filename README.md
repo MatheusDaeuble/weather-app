@@ -1,10 +1,8 @@
 # WeatherApp
 
-
-<div class="row">
-  <img src="https://user-images.githubusercontent.com/19613330/177512053-91ec203e-fab9-445b-8102-d8b38e24b115.gif" width="30%" height="30%" />
-  <img src="https://user-images.githubusercontent.com/19613330/177518442-ea11ea24-e795-4994-a57e-93abdc2ef723.gif" width="30%" height="30%" />
-<div>
+Padrão             |  Feedbacks
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/19613330/177512053-91ec203e-fab9-445b-8102-d8b38e24b115.gif)  |  ![](https://user-images.githubusercontent.com/19613330/177518442-ea11ea24-e795-4994-a57e-93abdc2ef723.gif)
 
 
 ## ✨ Apresentação 
