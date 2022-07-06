@@ -1,4 +1,4 @@
-import { TextProps, TextStyle } from 'react-native';
+import { TextStyle } from 'react-native';
 import { Color } from 'ui/theme/colors';
 
 export type TypographyVariant =
@@ -17,4 +17,4 @@ export type TypographyProps = {
   children: React.ReactNode;
   paragraph?: boolean;
   onPress?: () => void;
-} & TextProps;
+};
