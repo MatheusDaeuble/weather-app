@@ -49,6 +49,12 @@ yarn android
 
 - [OpenWeather](https://openweathermap.org/api) - Utilizada para obter informações metereologicas.
 
+Para utilizar a API é necessário criar variavéis de ambiente, para isso adicione um arquivo `.env`, seguindo a estrutura:
+```
+WEATHER_API_KEY=<CHAVE_GERADA>
+WEATHER_API_URL=<BASE_URL_DA_API>
+```
+*Nota: Para mais informações leia a [documentação](https://openweathermap.org/api).*
 
 ## 📱 Design System:
 
