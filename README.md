@@ -1,6 +1,12 @@
 # WeatherApp
 
 
+<div class="row">
+  <img src="https://user-images.githubusercontent.com/19613330/177512053-91ec203e-fab9-445b-8102-d8b38e24b115.gif" width="30%" height="30%" />
+  <img src="https://user-images.githubusercontent.com/19613330/177514495-d6e5cafa-9f0a-4031-bfed-94a9c0848c0e.gif" width="30%" height="30%" />
+<div>
+
+
 ## ✨ Apresentação 
 O WeatherApp é um ótimo aplicativo para quem quer ficar informado das previsões e condições climáticas atuais.
 
@@ -60,6 +66,15 @@ Para a criação do Design System, foi utilizada a metodologia de Atomic Design 
 
 *Obs: No projeto o Design System está localizado na pasta* `src/ui/components/`.
 
+
+## 🧪 Testes:
+
+
+Para realizar os testes automatizados basta usar o comando:
+```sh
+yarn test
+```
+*Nota: Quando os testes são executados é gerado uma pasta *`/coverage` *nela é possível verificar a cobertura dos testes.*
 
 ## 🌄 Ilustrações:
 
