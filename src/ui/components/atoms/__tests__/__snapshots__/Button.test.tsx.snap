@@ -1,0 +1,657 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Atom Render color Render color: black 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#000000",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: danger 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EB5757",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: gray 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#949494",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: gray-dark 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#4B4F58",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: gray-light 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#CECECE",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: primary 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#2E89DF",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: secondary 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#809FFF",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: success 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0E934C",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: warning 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FF8B2C",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render color: white 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render disabled 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#CECECE",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    align="center"
+    color="white"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 36,
+          "lineHeight": 54,
+          "textAlign": "center",
+        },
+        Object {},
+      ]
+    }
+    variant="h3"
+  >
+    Testing
+  </Text>
+</View>
+`;
+
+exports[`Button Atom Render color Render in loading 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#CECECE",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "minHeight": 54,
+      "opacity": 1,
+      "paddingBottom": 24,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 24,
+      "width": "100%",
+    }
+  }
+>
+  <ActivityIndicator
+    color="#FFFFFF"
+    size="small"
+  />
+</View>
+`;

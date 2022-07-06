@@ -1,13 +1,10 @@
 import React from 'react';
 import { ActivityIndicator } from 'react-native';
-
 import { Color, colors } from 'ui/theme/colors';
-
 import { Container, Label } from './styles';
 
 export interface ButtonProps {
   label: string;
-  variant?: 'filled';
   color?: Color;
   onPress?: () => void;
   labelColor?: Color;
@@ -18,7 +15,6 @@ export interface ButtonProps {
 const Button = ({
   label,
   color = 'primary',
-  labelColor = 'white',
   disabled = false,
   loading = false,
   onPress = () => {},
@@ -34,9 +30,7 @@ const Button = ({
       {loading ? (
         <ActivityIndicator size='small' color={colors.white} />
       ) : (
-        <Label color={loading || disabled ? 'white' : labelColor}>
-          {label}
-        </Label>
+        <Label color='white'>{label}</Label>
       )}
     </Container>
   );
