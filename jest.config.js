@@ -7,6 +7,14 @@ module.exports = {
   ],
   collectCoverage: true,
   setupFiles: ['./setupFile.js'],
-  collectCoverageFrom: ['src/**/*.tsx', '!src/**/*.spec.tsx'],
+  collectCoverageFrom: [
+    // Include:
+    'src/ui/components/**/*.tsx',
+    'src/util/*.ts',
+    // Exclude:
+    '!src/util/indexSVG.ts',
+    '!src/util/templateSVG.ts',
+    '!src/**/*.spec.tsx',
+  ],
   coverageReporters: ['lcov'],
 };
