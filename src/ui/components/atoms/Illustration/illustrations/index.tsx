@@ -2,6 +2,7 @@ export { default as CloudMoon } from './CloudMoon';
 export { default as CloudSun } from './CloudSun';
 export { default as Cloud } from './Cloud';
 export { default as Clouds } from './Clouds';
+export { default as Error } from './Error';
 export { default as Location } from './Location';
 export { default as Mist } from './Mist';
 export { default as Moon } from './Moon';

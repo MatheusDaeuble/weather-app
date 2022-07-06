@@ -2,6 +2,7 @@ import { SvgProps } from 'react-native-svg';
 
 export type IllustrationName =
   | 'cloud'
+  | 'error'
   | 'cloud-moon'
   | 'clouds'
   | 'cloud-sun'

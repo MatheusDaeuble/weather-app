@@ -79,7 +79,7 @@ export const withWeatherContext = WrappedComponent => {
       return (
         <IllustrationPageTemplate
           title='Ops!'
-          illustration='location'
+          illustration='error'
           description='Ocorreu um erro ao tentar carregar suas informações climáticas, por favor verifique sua conexão ou tente novamente em breve.'
           button={{
             onPress: weather.current.refetch,
