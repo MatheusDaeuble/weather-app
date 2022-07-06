@@ -1,14 +1,16 @@
 import weatherApi from '..';
+import Coordinates from '../types/Coordinates';
 import WeatherWeekForecast from '../types/WeatherWeekForecast';
 import { parseToWeekForecast } from '../util/parses';
 
-export const fetchWeekForecast = async (params: {
-  lat: number;
-  lon: number;
-}): Promise<WeatherWeekForecast[]> => {
+export const fetchWeekForecast = async ({
+  latitude,
+  longitude,
+}: Coordinates): Promise<WeatherWeekForecast[]> => {
   const { data } = await weatherApi.get('/onecall', {
     params: {
-      ...params,
+      lat: latitude,
+      lon: longitude,
       exclude: ['minutely', 'hourly'],
     },
   });

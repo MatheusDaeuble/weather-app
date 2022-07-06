@@ -18,37 +18,33 @@ const WeatherContext = createContext<WeatherContextData>(
   {} as WeatherContextData
 );
 
-const INTERVAL_TO_REFRESH = 60 * 1000; // 1 Minute
+const INTERVAL_TO_REFRESH = 60 * 1000 * 1; // 1 Minute
 
 const useWeather = (): WeatherContextData => {
   const { location } = useContext(PermissionsContext);
   const { addToast } = useToast();
 
-  const handleFetchCurrentWeather = async () => {
+  const getCurrentPosition = async () => {
     if (location.granted) {
       const { coords } = await getCurrentPositionAsync({
-        accuracy: Accuracy.Balanced,
+        accuracy: Accuracy.Low,
       });
+      return coords;
+    }
+  };
 
-      const response = await fetchCurrentWeather({
-        lon: coords.longitude,
-        lat: coords.latitude,
-      });
+  const handleFetchCurrentWeather = async () => {
+    const coords = await getCurrentPosition();
+    if (coords) {
+      const response = await fetchCurrentWeather(coords);
       return response;
     }
   };
 
   const handleFetchForecastWeek = async () => {
-    if (location.granted) {
-      const { coords } = await getCurrentPositionAsync({
-        accuracy: Accuracy.Balanced,
-      });
-
-      const response = await fetchWeekForecast({
-        lon: coords.longitude,
-        lat: coords.latitude,
-      });
-
+    const coords = await getCurrentPosition();
+    if (coords) {
+      const response = await fetchWeekForecast(coords);
       return response;
     }
   };
