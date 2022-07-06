@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography Atom Render align Render align: auto 1`] = `
+<Text
+  align="auto"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "auto",
+      },
+    ]
+  }
+  variant="body1"
+>
+  auto
+</Text>
+`;
+
+exports[`Typography Atom Render align Render align: center 1`] = `
+<Text
+  align="center"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "center",
+      },
+    ]
+  }
+  variant="body1"
+>
+  center
+</Text>
+`;
+
+exports[`Typography Atom Render align Render align: justify 1`] = `
+<Text
+  align="justify"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "justify",
+      },
+    ]
+  }
+  variant="body1"
+>
+  justify
+</Text>
+`;
+
+exports[`Typography Atom Render align Render align: left 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  left
+</Text>
+`;
+
+exports[`Typography Atom Render align Render align: right 1`] = `
+<Text
+  align="right"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "right",
+      },
+    ]
+  }
+  variant="body1"
+>
+  right
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: black 1`] = `
+<Text
+  align="left"
+  color="black"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#000000",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  black
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: danger 1`] = `
+<Text
+  align="left"
+  color="danger"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#EB5757",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  danger
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: gray 1`] = `
+<Text
+  align="left"
+  color="gray"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#949494",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  gray
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: gray-dark 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  gray-dark
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: gray-light 1`] = `
+<Text
+  align="left"
+  color="gray-light"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#CECECE",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  gray-light
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: primary 1`] = `
+<Text
+  align="left"
+  color="primary"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#2E89DF",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  primary
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: secondary 1`] = `
+<Text
+  align="left"
+  color="secondary"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#809FFF",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  secondary
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: success 1`] = `
+<Text
+  align="left"
+  color="success"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#0E934C",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  success
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: warning 1`] = `
+<Text
+  align="left"
+  color="warning"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#FF8B2C",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  warning
+</Text>
+`;
+
+exports[`Typography Atom Render color Render color: white 1`] = `
+<Text
+  align="left"
+  color="white"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#FFFFFF",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  white
+</Text>
+`;
+
+exports[`Typography Atom Render empty 1`] = `null`;
+
+exports[`Typography Atom Render variant Render variant: body1 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body1"
+>
+  body1
+</Text>
+`;
+
+exports[`Typography Atom Render variant Render variant: body2 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_700Bold",
+        "fontSize": 28,
+        "lineHeight": 42,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="body2"
+>
+  body2
+</Text>
+`;
+
+exports[`Typography Atom Render variant Render variant: h1 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 124,
+        "lineHeight": 186,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="h1"
+>
+  h1
+</Text>
+`;
+
+exports[`Typography Atom Render variant Render variant: h2 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_700Bold",
+        "fontSize": 52,
+        "lineHeight": 78,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="h2"
+>
+  h2
+</Text>
+`;
+
+exports[`Typography Atom Render variant Render variant: h3 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_700Bold",
+        "fontSize": 36,
+        "lineHeight": 54,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="h3"
+>
+  h3
+</Text>
+`;
+
+exports[`Typography Atom Render variant Render variant: h4 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_700Bold",
+        "fontSize": 32,
+        "lineHeight": 48,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="h4"
+>
+  h4
+</Text>
+`;
+
+exports[`Typography Atom Render variant Render variant: h5 1`] = `
+<Text
+  align="left"
+  color="gray-dark"
+  paragraph={false}
+  style={
+    Array [
+      Object {
+        "color": "#4B4F58",
+        "fontFamily": "OpenSans_400Regular",
+        "fontSize": 32,
+        "lineHeight": 48,
+        "textAlign": "left",
+      },
+    ]
+  }
+  variant="h5"
+>
+  h5
+</Text>
+`;
