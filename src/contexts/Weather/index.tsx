@@ -54,13 +54,13 @@ const useWeather = (): WeatherContextData => {
   };
 
   const current = useQuery('weather', handleFetchCurrentWeather, {
-    // refetchInterval: INTERVAL_TO_REFRESH,
+    refetchInterval: INTERVAL_TO_REFRESH,
     onError: () =>
       addToast({ type: 'error', content: 'Ocorreu um erro inesperado!' }),
   });
 
   const forecastWeek = useQuery('forecast-week', handleFetchForecastWeek, {
-    // refetchInterval: INTERVAL_TO_REFRESH,
+    refetchInterval: INTERVAL_TO_REFRESH,
     onError: () =>
       addToast({
         type: 'error',
