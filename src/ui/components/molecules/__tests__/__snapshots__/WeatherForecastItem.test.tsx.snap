@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherForecastItem Molecule Not today 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 16,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Text
+    align="left"
+    color="gray"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontFamily": "OpenSans_400Regular",
+          "fontSize": 32,
+          "lineHeight": 48,
+          "textAlign": "left",
+        },
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+    variant="h5"
+  >
+    Sábado
+  </Text>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "width": 36,
+      }
+    }
+  >
+    <Text />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "width": 36,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <Text
+      align="left"
+      color="gray"
+      paragraph={false}
+      style={
+        Array [
+          Object {
+            "color": "#949494",
+            "fontFamily": "OpenSans_400Regular",
+            "fontSize": 32,
+            "lineHeight": 48,
+            "textAlign": "left",
+          },
+          Object {},
+        ]
+      }
+      variant="h5"
+    >
+      22°
+       
+    </Text>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "width": 36,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <Text
+      align="left"
+      color="gray"
+      paragraph={false}
+      style={
+        Array [
+          Object {
+            "color": "#949494",
+            "fontFamily": "OpenSans_400Regular",
+            "fontSize": 32,
+            "lineHeight": 48,
+            "textAlign": "left",
+          },
+          Object {},
+        ]
+      }
+      variant="h5"
+    >
+      17°
+       
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`WeatherForecastItem Molecule Today 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 16,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Text
+    align="left"
+    color="gray"
+    paragraph={false}
+    style={
+      Array [
+        Object {
+          "color": "#949494",
+          "fontFamily": "OpenSans_700Bold",
+          "fontSize": 32,
+          "lineHeight": 48,
+          "textAlign": "left",
+        },
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+    variant="h4"
+  >
+    Hoje
+  </Text>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "width": 36,
+      }
+    }
+  >
+    <Text />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "width": 36,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <Text
+      align="left"
+      color="gray"
+      paragraph={false}
+      style={
+        Array [
+          Object {
+            "color": "#949494",
+            "fontFamily": "OpenSans_400Regular",
+            "fontSize": 32,
+            "lineHeight": 48,
+            "textAlign": "left",
+          },
+          Object {},
+        ]
+      }
+      variant="h5"
+    >
+      22°
+       
+    </Text>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "width": 36,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <Text
+      align="left"
+      color="gray"
+      paragraph={false}
+      style={
+        Array [
+          Object {
+            "color": "#949494",
+            "fontFamily": "OpenSans_400Regular",
+            "fontSize": 32,
+            "lineHeight": 48,
+            "textAlign": "left",
+          },
+          Object {},
+        ]
+      }
+      variant="h5"
+    >
+      17°
+       
+    </Text>
+  </View>
+</View>
+`;
