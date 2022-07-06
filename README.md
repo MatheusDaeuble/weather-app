@@ -3,7 +3,7 @@
 
 <div class="row">
   <img src="https://user-images.githubusercontent.com/19613330/177512053-91ec203e-fab9-445b-8102-d8b38e24b115.gif" width="30%" height="30%" />
-  <img src="https://user-images.githubusercontent.com/19613330/177514495-d6e5cafa-9f0a-4031-bfed-94a9c0848c0e.gif" width="30%" height="30%" />
+  <img src="https://user-images.githubusercontent.com/19613330/177518442-ea11ea24-e795-4994-a57e-93abdc2ef723.gif" width="30%" height="30%" />
 <div>
 
 
