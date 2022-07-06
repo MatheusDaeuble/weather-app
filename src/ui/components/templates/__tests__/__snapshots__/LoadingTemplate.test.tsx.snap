@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingTemplate Default 1`] = `
+<RCTSafeAreaView
+  color="primary"
+  emulateUnlessSupported={true}
+  isFlex={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#2E89DF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#2E89DF",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "100%",
+          "justifyContent": "center",
+          "paddingBottom": 56,
+          "paddingLeft": 56,
+          "paddingRight": 56,
+          "paddingTop": 56,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      flex1={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <ActivityIndicator
+        color="#FFFFFF"
+        size="large"
+      />
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
