@@ -42,6 +42,24 @@ const getIcon = ({
   }
 };
 
+export const iconNames: Array<IconProps['name']> = [
+  'cloud-outline',
+  'cloudy-night-outline',
+  'cloudy',
+  'sync',
+  'x-circle-outlined',
+  'check-circle',
+  'moon-outline',
+  'partly-sunny-outline',
+  'rainy-outline',
+  'snow-outline',
+  'sunny-outline',
+  'thunderstorm-outline',
+  'wind',
+  'chevron-down',
+  'chevron-up',
+];
+
 const Icon = ({
   color = 'gray',
   size = 24,
