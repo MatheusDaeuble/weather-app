@@ -1,0 +1,4097 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShowWeatherTemplate Current Weather Loading 1`] = `
+Array [
+  <RCTSafeAreaView
+    color="primary"
+    emulateUnlessSupported={true}
+    isFlex={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#2E89DF",
+          "flexBasis": 0,
+          "flexGrow": 0,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  />,
+  <RCTSafeAreaView
+    color="primary"
+    emulateUnlessSupported={true}
+    isFlex={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#2E89DF",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E89DF",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "space-between",
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        flex1={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <ActivityIndicator
+          color="#FFFFFF"
+          size="large"
+        />
+      </View>
+    </View>
+  </RCTSafeAreaView>,
+]
+`;
+
+exports[`ShowWeatherTemplate Default 1`] = `
+Array [
+  <RCTSafeAreaView
+    color="primary"
+    emulateUnlessSupported={true}
+    isFlex={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#2E89DF",
+          "flexBasis": 0,
+          "flexGrow": 0,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  />,
+  <RCTSafeAreaView
+    color="white"
+    emulateUnlessSupported={true}
+    isFlex={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E89DF",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "space-between",
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "paddingBottom": 48,
+              "paddingLeft": 48,
+              "paddingRight": 48,
+              "paddingTop": 48,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": 26,
+                "justifyContent": "center",
+                "position": "absolute",
+                "right": 56,
+                "top": 16,
+                "width": 26,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "width": 48,
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_700Bold",
+                "fontSize": 36,
+                "lineHeight": 54,
+                "textAlign": "center",
+              },
+              Object {
+                "marginBottom": 8,
+              },
+            ]
+          }
+          variant="h3"
+        >
+          Fortaleza, BR
+        </Text>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_400Regular",
+                "fontSize": 32,
+                "lineHeight": 48,
+                "textAlign": "center",
+              },
+              Object {},
+            ]
+          }
+          variant="h5"
+        >
+          Seg, 6 de Junho de 2022
+        </Text>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_400Regular",
+                "fontSize": 124,
+                "lineHeight": 186,
+                "textAlign": "center",
+              },
+              Object {
+                "marginTop": 16,
+              },
+            ]
+          }
+          variant="h1"
+        >
+          25°
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(255, 255, 255, 0.2)",
+                "borderRadius": 32,
+                "marginTop": 48,
+                "paddingBottom": 40,
+                "paddingLeft": 40,
+                "paddingRight": 40,
+                "paddingTop": 40,
+                "width": 702,
+              },
+            ]
+          }
+        >
+          <View
+            finalHeight={0}
+            style={
+              Array [
+                Object {
+                  "marginTop": -0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 40,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "aspectRatio": 1.628930817610063,
+                  "height": 120,
+                  "width": undefined,
+                }
+              }
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight="100%"
+                bbWidth="100%"
+                fill="none"
+                focusable={false}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Array [
+                      Object {
+                        "alignSelf": "flex-end",
+                        "maxHeight": 100,
+                        "maxWidth": 120,
+                      },
+                    ],
+                    Object {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                vbHeight={159}
+                vbWidth={259}
+              >
+                <RNSVGGroup
+                  fill={null}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                >
+                  <RNSVGPath
+                    d="M225.646 92.452c-.125 0-.239.03-.362.03a43.515 43.515 0 003.577-17.292c0-24.102-19.536-43.625-43.634-43.625-8.517 0-16.437 2.468-23.153 6.69C152.989 16.176 131.287.609 105.93.609c-33.53 0-60.71 27.195-60.71 60.724 0 2.528.204 5.01.506 7.464-.17 0-.336-.03-.507-.03-22.48 0-40.705 18.23-40.705 40.709 0 22.48 18.225 40.705 40.705 40.705h180.427c15.944 0 28.868-12.924 28.868-28.868 0-15.942-12.924-28.86-28.868-28.86z"
+                    fill={4294967295}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+          <Text
+            align="left"
+            color="white"
+            paragraph={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "OpenSans_700Bold",
+                  "fontSize": 28,
+                  "lineHeight": 42,
+                  "textAlign": "left",
+                },
+                Object {
+                  "marginBottom": 40,
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+            variant="body2"
+          >
+            nublado
+          </Text>
+          <Text
+            align="left"
+            color="white"
+            paragraph={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "OpenSans_400Regular",
+                  "fontSize": 28,
+                  "lineHeight": 42,
+                  "textAlign": "left",
+                },
+                Object {},
+              ]
+            }
+            variant="body1"
+          >
+            A sensação termina é de 25°, a máxima será de 29° e a mínima é de 20°.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderTopLeftRadius": 32,
+              "borderTopRightRadius": 32,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "maxHeight": 420,
+              "paddingBottom": 0,
+              "paddingLeft": 40,
+              "paddingRight": 40,
+              "paddingTop": 40,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <Text
+          align="left"
+          color="gray-dark"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#4B4F58",
+                "fontFamily": "OpenSans_700Bold",
+                "fontSize": 32,
+                "lineHeight": 48,
+                "textAlign": "left",
+              },
+            ]
+          }
+          variant="h4"
+        >
+          Previsão da semana
+        </Text>
+        <RCTScrollView
+          ListEmptyComponent={<Styled(Typography) />}
+          contentContainerStyle={
+            Object {
+              "paddingVertical": 24,
+            }
+          }
+          data={
+            Array [
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 22.33,
+                "min": 16.55,
+                "timestamp": 1654473600000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 23.33,
+                "min": 17.55,
+                "timestamp": 1654560000000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 24.33,
+                "min": 18.55,
+                "timestamp": 1654646400000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 25.33,
+                "min": 19.55,
+                "timestamp": 1654732800000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 26.33,
+                "min": 20.55,
+                "timestamp": 1654819200000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 27.33,
+                "min": 21.55,
+                "timestamp": 1654905600000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 28.33,
+                "min": 22.55,
+                "timestamp": 1654992000000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 29.33,
+                "min": 23.55,
+                "timestamp": 1655078400000,
+              },
+            ]
+          }
+          getItem={[Function]}
+          getItemCount={[Function]}
+          keyExtractor={[Function]}
+          onContentSizeChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          showsVerticalScrollIndicator={false}
+          stickyHeaderIndices={Array []}
+          style={
+            Array [
+              Object {
+                "paddingTop": 16,
+              },
+            ]
+          }
+          viewabilityConfigCallbackPairs={Array []}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Domingo
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    22°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    17°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Segunda
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    23°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    18°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Terça
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    24°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    19°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Quarta
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    25°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    20°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Quinta
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    26°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    21°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Sexta
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    27°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    22°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Sábado
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    28°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    23°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Domingo
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    29°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    24°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </RCTSafeAreaView>,
+]
+`;
+
+exports[`ShowWeatherTemplate Forecast Loading 1`] = `
+Array [
+  <RCTSafeAreaView
+    color="primary"
+    emulateUnlessSupported={true}
+    isFlex={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#2E89DF",
+          "flexBasis": 0,
+          "flexGrow": 0,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  />,
+  <RCTSafeAreaView
+    color="white"
+    emulateUnlessSupported={true}
+    isFlex={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E89DF",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "space-between",
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "paddingBottom": 48,
+              "paddingLeft": 48,
+              "paddingRight": 48,
+              "paddingTop": 48,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": 26,
+                "justifyContent": "center",
+                "position": "absolute",
+                "right": 56,
+                "top": 16,
+                "width": 26,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "width": 48,
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_700Bold",
+                "fontSize": 36,
+                "lineHeight": 54,
+                "textAlign": "center",
+              },
+              Object {
+                "marginBottom": 8,
+              },
+            ]
+          }
+          variant="h3"
+        >
+          Fortaleza, BR
+        </Text>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_400Regular",
+                "fontSize": 32,
+                "lineHeight": 48,
+                "textAlign": "center",
+              },
+              Object {},
+            ]
+          }
+          variant="h5"
+        >
+          Seg, 6 de Junho de 2022
+        </Text>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_400Regular",
+                "fontSize": 124,
+                "lineHeight": 186,
+                "textAlign": "center",
+              },
+              Object {
+                "marginTop": 16,
+              },
+            ]
+          }
+          variant="h1"
+        >
+          25°
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(255, 255, 255, 0.2)",
+                "borderRadius": 32,
+                "marginTop": 48,
+                "paddingBottom": 40,
+                "paddingLeft": 40,
+                "paddingRight": 40,
+                "paddingTop": 40,
+                "width": 702,
+              },
+            ]
+          }
+        >
+          <View
+            finalHeight={0}
+            style={
+              Array [
+                Object {
+                  "marginTop": -0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 40,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "aspectRatio": 1.628930817610063,
+                  "height": 120,
+                  "width": undefined,
+                }
+              }
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight="100%"
+                bbWidth="100%"
+                fill="none"
+                focusable={false}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Array [
+                      Object {
+                        "alignSelf": "flex-end",
+                        "maxHeight": 100,
+                        "maxWidth": 120,
+                      },
+                    ],
+                    Object {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                vbHeight={159}
+                vbWidth={259}
+              >
+                <RNSVGGroup
+                  fill={null}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                >
+                  <RNSVGPath
+                    d="M225.646 92.452c-.125 0-.239.03-.362.03a43.515 43.515 0 003.577-17.292c0-24.102-19.536-43.625-43.634-43.625-8.517 0-16.437 2.468-23.153 6.69C152.989 16.176 131.287.609 105.93.609c-33.53 0-60.71 27.195-60.71 60.724 0 2.528.204 5.01.506 7.464-.17 0-.336-.03-.507-.03-22.48 0-40.705 18.23-40.705 40.709 0 22.48 18.225 40.705 40.705 40.705h180.427c15.944 0 28.868-12.924 28.868-28.868 0-15.942-12.924-28.86-28.868-28.86z"
+                    fill={4294967295}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+          <Text
+            align="left"
+            color="white"
+            paragraph={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "OpenSans_700Bold",
+                  "fontSize": 28,
+                  "lineHeight": 42,
+                  "textAlign": "left",
+                },
+                Object {
+                  "marginBottom": 40,
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+            variant="body2"
+          >
+            nublado
+          </Text>
+          <Text
+            align="left"
+            color="white"
+            paragraph={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "OpenSans_400Regular",
+                  "fontSize": 28,
+                  "lineHeight": 42,
+                  "textAlign": "left",
+                },
+                Object {},
+              ]
+            }
+            variant="body1"
+          >
+            A sensação termina é de 25°, a máxima será de 29° e a mínima é de 20°.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderTopLeftRadius": 32,
+              "borderTopRightRadius": 32,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "maxHeight": 420,
+              "paddingBottom": 0,
+              "paddingLeft": 40,
+              "paddingRight": 40,
+              "paddingTop": 40,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <Text
+          align="left"
+          color="gray-dark"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#4B4F58",
+                "fontFamily": "OpenSans_700Bold",
+                "fontSize": 32,
+                "lineHeight": 48,
+                "textAlign": "left",
+              },
+            ]
+          }
+          variant="h4"
+        >
+          Previsão da semana
+        </Text>
+        <View
+          flex1={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "center",
+              },
+            ]
+          }
+        >
+          <ActivityIndicator
+            color="#2E89DF"
+            size="large"
+          />
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>,
+]
+`;
+
+exports[`ShowWeatherTemplate Refreshing 1`] = `
+Array [
+  <RCTSafeAreaView
+    color="primary"
+    emulateUnlessSupported={true}
+    isFlex={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#2E89DF",
+          "flexBasis": 0,
+          "flexGrow": 0,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  />,
+  <RCTSafeAreaView
+    color="white"
+    emulateUnlessSupported={true}
+    isFlex={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2E89DF",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "height": "100%",
+            "justifyContent": "space-between",
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "paddingBottom": 48,
+              "paddingLeft": 48,
+              "paddingRight": 48,
+              "paddingTop": 48,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": 26,
+                "justifyContent": "center",
+                "position": "absolute",
+                "right": 56,
+                "top": 16,
+                "width": 26,
+              },
+            ]
+          }
+        >
+          <ActivityIndicator
+            color="white"
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          />
+        </View>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_700Bold",
+                "fontSize": 36,
+                "lineHeight": 54,
+                "textAlign": "center",
+              },
+              Object {
+                "marginBottom": 8,
+              },
+            ]
+          }
+          variant="h3"
+        >
+          Fortaleza, BR
+        </Text>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_400Regular",
+                "fontSize": 32,
+                "lineHeight": 48,
+                "textAlign": "center",
+              },
+              Object {},
+            ]
+          }
+          variant="h5"
+        >
+          Seg, 6 de Junho de 2022
+        </Text>
+        <Text
+          align="center"
+          color="white"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans_400Regular",
+                "fontSize": 124,
+                "lineHeight": 186,
+                "textAlign": "center",
+              },
+              Object {
+                "marginTop": 16,
+              },
+            ]
+          }
+          variant="h1"
+        >
+          25°
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(255, 255, 255, 0.2)",
+                "borderRadius": 32,
+                "marginTop": 48,
+                "paddingBottom": 40,
+                "paddingLeft": 40,
+                "paddingRight": 40,
+                "paddingTop": 40,
+                "width": 702,
+              },
+            ]
+          }
+        >
+          <View
+            finalHeight={0}
+            style={
+              Array [
+                Object {
+                  "marginTop": -0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 40,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "aspectRatio": 1.628930817610063,
+                  "height": 120,
+                  "width": undefined,
+                }
+              }
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight="100%"
+                bbWidth="100%"
+                fill="none"
+                focusable={false}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Array [
+                      Object {
+                        "alignSelf": "flex-end",
+                        "maxHeight": 100,
+                        "maxWidth": 120,
+                      },
+                    ],
+                    Object {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                vbHeight={159}
+                vbWidth={259}
+              >
+                <RNSVGGroup
+                  fill={null}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                >
+                  <RNSVGPath
+                    d="M225.646 92.452c-.125 0-.239.03-.362.03a43.515 43.515 0 003.577-17.292c0-24.102-19.536-43.625-43.634-43.625-8.517 0-16.437 2.468-23.153 6.69C152.989 16.176 131.287.609 105.93.609c-33.53 0-60.71 27.195-60.71 60.724 0 2.528.204 5.01.506 7.464-.17 0-.336-.03-.507-.03-22.48 0-40.705 18.23-40.705 40.709 0 22.48 18.225 40.705 40.705 40.705h180.427c15.944 0 28.868-12.924 28.868-28.868 0-15.942-12.924-28.86-28.868-28.86z"
+                    fill={4294967295}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+          <Text
+            align="left"
+            color="white"
+            paragraph={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "OpenSans_700Bold",
+                  "fontSize": 28,
+                  "lineHeight": 42,
+                  "textAlign": "left",
+                },
+                Object {
+                  "marginBottom": 40,
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+            variant="body2"
+          >
+            nublado
+          </Text>
+          <Text
+            align="left"
+            color="white"
+            paragraph={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "OpenSans_400Regular",
+                  "fontSize": 28,
+                  "lineHeight": 42,
+                  "textAlign": "left",
+                },
+                Object {},
+              ]
+            }
+            variant="body1"
+          >
+            A sensação termina é de 25°, a máxima será de 29° e a mínima é de 20°.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderTopLeftRadius": 32,
+              "borderTopRightRadius": 32,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "maxHeight": 420,
+              "paddingBottom": 0,
+              "paddingLeft": 40,
+              "paddingRight": 40,
+              "paddingTop": 40,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <Text
+          align="left"
+          color="gray-dark"
+          paragraph={false}
+          style={
+            Array [
+              Object {
+                "color": "#4B4F58",
+                "fontFamily": "OpenSans_700Bold",
+                "fontSize": 32,
+                "lineHeight": 48,
+                "textAlign": "left",
+              },
+            ]
+          }
+          variant="h4"
+        >
+          Previsão da semana
+        </Text>
+        <RCTScrollView
+          ListEmptyComponent={<Styled(Typography) />}
+          contentContainerStyle={
+            Object {
+              "paddingVertical": 24,
+            }
+          }
+          data={
+            Array [
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 22.33,
+                "min": 16.55,
+                "timestamp": 1654473600000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 23.33,
+                "min": 17.55,
+                "timestamp": 1654560000000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 24.33,
+                "min": 18.55,
+                "timestamp": 1654646400000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 25.33,
+                "min": 19.55,
+                "timestamp": 1654732800000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 26.33,
+                "min": 20.55,
+                "timestamp": 1654819200000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 27.33,
+                "min": 21.55,
+                "timestamp": 1654905600000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 28.33,
+                "min": 22.55,
+                "timestamp": 1654992000000,
+              },
+              Object {
+                "icon": "cloudy",
+                "illustration": "cloud",
+                "max": 29.33,
+                "min": 23.55,
+                "timestamp": 1655078400000,
+              },
+            ]
+          }
+          getItem={[Function]}
+          getItemCount={[Function]}
+          keyExtractor={[Function]}
+          onContentSizeChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          showsVerticalScrollIndicator={false}
+          stickyHeaderIndices={Array []}
+          style={
+            Array [
+              Object {
+                "paddingTop": 16,
+              },
+            ]
+          }
+          viewabilityConfigCallbackPairs={Array []}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Domingo
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    22°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    17°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Segunda
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    23°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    18°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Terça
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    24°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    19°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Quarta
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    25°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    20°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Quinta
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    26°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    21°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Sexta
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    27°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    22°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Sábado
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    28°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    23°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "paddingVertical": 16,
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  align="left"
+                  color="gray"
+                  paragraph={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#949494",
+                        "fontFamily": "OpenSans_400Regular",
+                        "fontSize": 32,
+                        "lineHeight": 48,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                      },
+                    ]
+                  }
+                  variant="h5"
+                >
+                  Domingo
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "width": 36,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexBasis": 0,
+                        "flexDirection": "row",
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "justifyContent": "flex-end",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    29°
+                     
+                  </Text>
+                  <View
+                    accessibilityState={
+                      Object {
+                        "disabled": true,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                  <Text
+                    align="left"
+                    color="gray"
+                    paragraph={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#949494",
+                          "fontFamily": "OpenSans_400Regular",
+                          "fontSize": 32,
+                          "lineHeight": 48,
+                          "textAlign": "left",
+                        },
+                        Object {},
+                      ]
+                    }
+                    variant="h5"
+                  >
+                    24°
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </RCTSafeAreaView>,
+]
+`;

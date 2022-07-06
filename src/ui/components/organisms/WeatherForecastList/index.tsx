@@ -13,7 +13,7 @@ const WeatherForecastList = ({
   data = [],
   loading = false,
 }: WeatherForecastListProps) => {
-  if (loading && !data.length) return <Loading />;
+  if (loading && (!data || !data.length)) return <Loading />;
 
   return (
     <WeekList
