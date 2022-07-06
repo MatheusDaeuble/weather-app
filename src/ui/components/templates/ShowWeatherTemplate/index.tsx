@@ -69,7 +69,10 @@ const ShowWeatherTemplate = ({
                 <Temperature>{temp}</Temperature>
                 <Content>
                   <WeatherIllustrationContainer finalHeight={height}>
-                    <WeatherIllustration name='cloud' onLayout={handleHeight} />
+                    <WeatherIllustration
+                      name={currentWeather.illustration}
+                      onLayout={handleHeight}
+                    />
                   </WeatherIllustrationContainer>
                   <Status>{currentWeather.status}</Status>
                   <Description>{description}</Description>
