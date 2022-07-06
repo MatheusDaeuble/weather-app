@@ -1,23 +1,13 @@
 import React from 'react';
 import Loading from 'ui/components/atoms/Loading';
 import SafeArea from 'ui/containers/SafeArea';
-import { Container, Title, Description } from './styles';
+import { Container } from './styles';
 
-interface LoadingTemplateProps {
-  title?: string;
-  description?: string;
-}
-
-const LoadingTemplate = ({
-  title = 'Carregando...',
-  description = 'Estamos buscando as informações climáticas com base na sua localização',
-}: LoadingTemplateProps) => {
+const LoadingTemplate = () => {
   return (
-    <SafeArea>
+    <SafeArea color='primary'>
       <Container>
-        <Loading flex1={false} />
-        <Title>{title}</Title>
-        <Description>{description}</Description>
+        <Loading color='white' />
       </Container>
     </SafeArea>
   );
