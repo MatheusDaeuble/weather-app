@@ -12,7 +12,7 @@ import {
   CurrentWeatherContainer,
   Temperature,
   Location,
-  DateTime,
+  LocalTime,
   Status,
   Content,
   WeatherIllustration,
@@ -65,7 +65,7 @@ const ShowWeatherTemplate = ({
                   )}
                 </RefreshContainer>
                 <Location>{location}</Location>
-                <DateTime>{date}</DateTime>
+                <LocalTime>{date}</LocalTime>
                 <Temperature>{temp}</Temperature>
                 <Content>
                   <WeatherIllustrationContainer finalHeight={height}>

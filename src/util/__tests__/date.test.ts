@@ -2,7 +2,7 @@ import { months, week } from 'util/date';
 
 describe('Format util', () => {
   describe('Week', () => {
-    it('should be able return correct week day', async () => {
+    it('should be able return correct week day', () => {
       expect(week[0]).toBe('Domingo');
       expect(week[1]).toBe('Segunda');
       expect(week[2]).toBe('Terça');
@@ -14,7 +14,7 @@ describe('Format util', () => {
   });
 
   describe('Month', () => {
-    it('should be able to  return correct month', async () => {
+    it('should be able to  return correct month', () => {
       expect(months[0]).toBe('Janeiro');
       expect(months[1]).toBe('Fevereiro');
       expect(months[2]).toBe('Março');

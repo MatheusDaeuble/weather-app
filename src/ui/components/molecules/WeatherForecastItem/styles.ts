@@ -22,14 +22,6 @@ export const Day = styled(Typography).attrs({
   flex: 1;
 `;
 
-export const Empty = styled(Typography).attrs({
-  color: 'gray',
-  children: 'Não foi possível carregar as previsões.',
-  align: 'center',
-})`
-  flex: 1;
-`;
-
 export const TempContainer = styled.View`
   flex: 1;
   align-items: center;

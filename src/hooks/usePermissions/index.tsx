@@ -28,9 +28,8 @@ const usePermissions = () => {
   };
 
   const handleRequestLocationPermission = () => {
-    if (location) {
+    if (location)
       location.canAskAgain ? requestLocationPermission() : openAppSettings();
-    }
   };
 
   return {

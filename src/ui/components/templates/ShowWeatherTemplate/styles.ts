@@ -29,7 +29,7 @@ export const Location = styled(Typography).attrs({
   margin-bottom: ${Spacing.SCALE_4}px;
 `;
 
-export const DateTime = styled(Typography).attrs({
+export const LocalTime = styled(Typography).attrs({
   variant: 'h5',
   color: 'white',
   align: 'center',
@@ -46,9 +46,7 @@ export const Temperature = styled(Typography).attrs({
 export const Description = styled(Typography).attrs({
   variant: 'body1',
   color: 'white',
-})`
-  /* margin: ${Spacing.SCALE_20}px; */
-`;
+})``;
 
 export const Status = styled(Typography).attrs({
   variant: 'body2',
@@ -65,12 +63,6 @@ export const Content = styled.View`
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: ${Spacing.SCALE_16}px;
   padding: ${Spacing.SCALE_20}px;
-`;
-
-export const StatusContainer = styled.View`
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
 `;
 
 export const WeekContainer = styled.View`
