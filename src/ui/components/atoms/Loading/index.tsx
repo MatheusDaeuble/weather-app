@@ -3,7 +3,7 @@ import { ActivityIndicator, ActivityIndicatorProps } from 'react-native';
 import { Color, colors } from 'ui/theme/colors';
 import { Container } from './styles';
 
-interface LoadingProps extends ActivityIndicatorProps {
+export interface LoadingProps extends ActivityIndicatorProps {
   color?: Color;
   flex1?: boolean;
 }

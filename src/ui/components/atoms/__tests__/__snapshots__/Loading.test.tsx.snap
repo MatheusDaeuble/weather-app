@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Atom Render color Render color: black 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#000000"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: danger 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#EB5757"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: gray 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#949494"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: gray-dark 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#4B4F58"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: gray-light 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#CECECE"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: primary 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#2E89DF"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: secondary 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#809FFF"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: success 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#0E934C"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: warning 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#FF8B2C"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render color Render color: white 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#FFFFFF"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render size Render size: large 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#2E89DF"
+    size="large"
+  />
+</View>
+`;
+
+exports[`Loading Atom Render size Render size: small 1`] = `
+<View
+  flex1={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    color="#2E89DF"
+    size="small"
+  />
+</View>
+`;
