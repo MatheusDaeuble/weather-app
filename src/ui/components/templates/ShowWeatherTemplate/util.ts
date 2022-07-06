@@ -8,9 +8,14 @@ export const formatWeather = (data: Weather) => {
     const { temp, tempMax, tempMin, city, country, timestamp, feelsLike } =
       data;
 
-    formatted.location = `${city}, ${country}`;
+    formatted.location = city
+      ? `${city}${country ? `, ${country}` : ''}`
+      : 'Localização desconhecida';
+
     formatted.date = formatDate(timestamp);
+
     formatted.temp = formatTemperature(temp);
+
     formatted.description = `A sensação termina é de ${formatTemperature(
       feelsLike
     )}, a máxima será de ${formatTemperature(
